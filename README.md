@@ -32,6 +32,18 @@ All requests should include:
 - `Content-Type: application/json` header
 - API key in the `X-API-KEY` header
 
+### Example Request (POST /api/users)
+
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "password": "securePassword123"
+}
+```
+Data Format:
+All responses are in JSON format.
+
 ## Authentication
 
 To authenticate your requests:
